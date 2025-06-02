@@ -30,7 +30,7 @@ resource "aws_instance" "example" {
   monitoring                           = false
   placement_group                      = null
   placement_partition_number           = 0
-  private_ip                           = "172.31.92.128"
+  private_ip                           = ""
   secondary_private_ips                = []
   security_groups                      = ["launch-wizard-17"]
   source_dest_check                    = true
