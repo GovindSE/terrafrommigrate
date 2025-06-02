@@ -31,6 +31,7 @@ git clone https://github.com/your-username/terraform-migrate-refresh.git
 cd terraform-migrate-refresh
 ```````
 commands
+```bash
 terraform init
 terraform plan -generate-config-out="generated_resources.tf"
  terraform plan (to verify)
@@ -38,4 +39,4 @@ terraform plan -generate-config-out="generated_resources.tf"
  terraform plan (verify if it's working)
  terraform refresh
 
-
+```````
